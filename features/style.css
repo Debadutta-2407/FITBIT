@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    background-color: rgb(194, 188, 190);
+    letter-spacing: 2px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.bmi-calculator{
+    background: rgb(45, 42, 49);
+    padding: 18px 18px;
+    border-radius: 22px;
+    box-shadow: 5px 2px 2px rgb(45, 42, 49);
+    text-align: center;
+}
+
+h1{
+    background-color: rgb(241, 128, 7);
+    color: black;
+    border-radius: 8px;
+    padding: 4px 0;
+}
+
+.stastics{
+    background-color: rgb(214, 218, 199);
+    margin: 15px 0;
+    padding: 8px 8px;
+    box-sizing: -1px 2px 2px black;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+.stastics span{
+    font-size: 15px;
+}
+.stastics input {
+    width: 80px;
+    text-align: center;
+    font-size: 18px;
+    padding: 5px 8px;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    outline: none;
+    height: 32px;
+}
+
+
+.stastics select{
+    text-align: center;
+    width: 170px;
+    outline: none;
+    padding: 5px 0px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(250, 248, 248);
+    color: black;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgb(0,0,0,0.1);
+}
+
+.stastics select option{
+    background-color: rgb(250, 248, 248);
+}
+.bmi-calculator button{
+    padding: 8px 8px;
+    box-shadow: 3px 3px 3px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: none;
+    color: black;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    background: rgb(241, 128, 7);
+    transition: .4s;
+}
+
+.bmi-calculator button:hover{
+    opacity: .8;
+}
+
+.buttons{
+    display:flex;
+    justify-content: space-between;
+}
+
+.bmi{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    font-weight: 500;
+    font-size: 30px;
+    color: slateblue;
+}
+
+#show-result{
+    background-color: #f1ecec;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    color: rgb(32, 33, 33);
+    /*text-shadow*/
+    font-size: 30px;
+    border-radius: 25px;
+    width: 130px;
+}
+
+.health-status{
+    padding: 5px 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.scenerio{
+    padding: 5px 5px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 13px;
+    box-shadow: -1px 2px 2px black;
+}
+
+#underweight{
+    background-color: rgb(214, 195, 9);
+}
+#normal{
+    background-color: rgb(11, 232, 48);
+}
+#overweight{
+    background-color: rgb(26, 16, 222);
+}
+#obese{
+    background-color: rgb(209, 24, 24);
+}
+
+.response{
+    padding: 5px 0;
+    font-family:'Times New Roman', Times, serif;
+    color:cornsilk;
+}
+
+.response a{
+    color: rgb(78, 226, 78);
+    font-family: Arial, Helvetica, sans-serif;
+}
